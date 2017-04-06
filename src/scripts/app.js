@@ -1,8 +1,8 @@
-var _ = require('lodash');
-var $ = require('jquery');
-var header = require('./components/header');
-var content = require('./components/content');
-var footer = require('./components/footer');
+import _ from 'lodash';
+import $ from 'jquery';
+import * as header from './components/header';
+import * as content from './components/content';
+import * as footer from './components/footer';
 
 header.init();
 menu.init();

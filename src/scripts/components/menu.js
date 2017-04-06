@@ -1,1 +1,3 @@
-console.log('menu');
+export function init() {
+  console.log('menu');
+}

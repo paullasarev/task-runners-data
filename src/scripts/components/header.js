@@ -1,1 +1,3 @@
-console.log('header');
+export function init() {
+  console.log('header');
+}
