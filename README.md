@@ -3,7 +3,7 @@
 make a build scripts based on
 1. gulp using modules
    * gulp-scss
-   * gulp-browserify to utilise commonjs requires
+   * browserify to utilise commonjs requires
 2. webpack
 
 the build scrips should:
