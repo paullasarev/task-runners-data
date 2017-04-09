@@ -3,7 +3,7 @@
 make a build scripts based on
 1. gulp using modules
    * gulp-scss
-   * browserify to utilise commonjs requires
+   * browserify+babelify to utilise es6 imports
 2. webpack
 
 the build scrips should:
@@ -16,11 +16,11 @@ the build scrips should:
   * entry point is src/styles/app.scss
   * (extra) use autoprefixer
 * run js bundler to build static js assets
-  * vendor.js 
-     * jquery
-     * lodash
   * app.js
      * entry point is src/scripts/app.js
+  * (extra) vendor.js
+     * jquery
+     * lodash
 * run webserver with livereload
   * gulp-webserver
   * webpack-devserver
